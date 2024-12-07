@@ -8,7 +8,7 @@
   "build": "tsc && vite build",
   "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
   "preview": "vite preview",
-  "start": "serve dist",
+  "start": "vite",
   "deploy": "vite build && gh-pages -d dist",
   "generate:pwa": "vite build && pwa-configure"
 },
