@@ -44,10 +44,13 @@ const CandidateCard = ({ thisCandidate, showUpcomingCandidate, addToPotentialCan
                     <strong>Bio:</strong> {thisCandidate.bio || 'N/A'}
                 </p>
             </article>
-            <button onClick={addToPotentialCandidates}>
+            <div className='buttons'>
+
+            </div>
+            <button onClick={addToPotentialCandidates} className='button_list'>
                 Save Candidate
             </button>
-            <button onClick={showUpcomingCandidate}>
+            <button onClick={showUpcomingCandidate} className='button_list'>
                 Next Candidate
             </button>
         </section>
